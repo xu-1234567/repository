@@ -43,7 +43,7 @@ Echo
 	SCEWIN_64.exe /i /ms "AMD KVM Mouse Protocol" /qv 0x1 /lang en-US
 	SCEWIN_64.exe /i /ms "ACP Power Gating" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "ACP CLock Gating" /qv 0x0 /lang en-US
-	SCEWIN_64.exe /i /ms "AMD StartUp PWM Enable" /qv 0x0 /lang en-US
+	SCEWIN_64.exe /i /ms "AMD StartUp PWM Enable" /qv 0x1 /lang en-US
 	SCEWIN_64.exe /i /ms "SMT Control" /qv 0x1 /lang en-US
 	SCEWIN_64.exe /i /ms "DRAM Latency Enhance" /qv 0x1 /lang en-US
 	SCEWIN_64.exe /i /ms "Cmd2T" /qv 0x0 /lang en-US
@@ -52,7 +52,7 @@ Echo
 	SCEWIN_64.exe /i /ms "LN2 Mode" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "Precision Boost Overdrive" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "SoC/Uncore OC Mode" /qv 0x1 /lang en-US
-	SCEWIN_64.exe /i /ms "NUMA nodes per socket" /qv 0x0 /lang en-US
+	SCEWIN_64.exe /i /ms "NUMA nodes per socket" /qv 0x1 /lang en-US
 	SCEWIN_64.exe /i /ms "LCLK DPM" /qv 0x2 /lang en-US
 	SCEWIN_64.exe /i /ms "LCLK DPM Enhanced PCIe Detection" /qv 0x2 /lang en-US
 	SCEWIN_64.exe /i /ms "SMEE" /qv 0x0 /lang en-US
@@ -209,7 +209,7 @@ Echo
 	SCEWIN_64.exe /i /ms "SVM Mode" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "NX Mode" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "PSS Support" /qv 0x0 /lang en-US
-	SCEWIN_64.exe /i /ms "Spread Spectrum" /qv 0x1 /lang en-US
+	SCEWIN_64.exe /i /ms "Spread Spectrum" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "LN2 Mode 2" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "Opcache Control" /qv 0x1 /lang en-US
 	SCEWIN_64.exe /i /ms "LN2 Mode 1" /qv 0x0 /lang en-US

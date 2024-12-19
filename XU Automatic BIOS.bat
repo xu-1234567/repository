@@ -1,9 +1,10 @@
 @Echo off & title XU BIOS Automatic Script & Color B
 
-Echo 	This is only for AMD systems, not for INTEL.
+Echo.					This is only for AMD systems, not for INTEL.
 
-Echo	Make sure you put this in your SCEWIN folder
-pause
+Echo.					Make sure you put this in your SCEWIN folder
+Echo						Press any key to continue
+Pause > NUL
 
 ::	Check if it is AMD
 	for /F "tokens=* skip=1" %%n in ('wmic cpu get Manufacturer ^| findstr "."') do set CPUManufacturer=%%n

@@ -87,8 +87,8 @@ Echo
 	SCEWIN_64.exe /i /ms "ACPI SLIT remote relative distance" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "GMI encryption control" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "xGMI encryption control" /qv 0x0 /lang en-US
-	SCEWIN_64.exe /i /ms "4-link xGMI max speed" /qv 0x13 /lang en-US
-	SCEWIN_64.exe /i /ms "3-link xGMI max speed" /qv 0x13 /lang en-US
+	REM SCEWIN_64.exe /i /ms "4-link xGMI max speed" /qv 0x13 /lang en-US
+	REM SCEWIN_64.exe /i /ms "3-link xGMI max speed" /qv 0x13 /lang en-US
 	SCEWIN_64.exe /i /ms "DRAM Maximum Activate Count" /qv 0x8 /lang en-US
 	SCEWIN_64.exe /i /ms "Data Poisoning" /qv 0x0 /lang en-US
 	SCEWIN_64.exe /i /ms "DRAM Post Package Repair" /qv 0x0 /lang en-US
